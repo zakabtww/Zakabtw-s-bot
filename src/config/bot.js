@@ -89,13 +89,13 @@ export const botConfig = {
     colors: {
       // Main brand colors.
       primary: "#8B0000", 
-      secondary: "#2F3136", 
+      secondary: "#8B0000", 
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287", 
-      error: "#ED4245", 
-      warning: "#FEE75C", 
-      info: "#3498DB", 
+      success: "#8B0000", 
+      error: "#8B0000", 
+      warning: "#8B0000", 
+      info: "#8B0000", 
 
       // Neutral utility colors.
       light: "#FFFFFF",
@@ -112,26 +112,26 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#8B0000",
+        ended: "#8B0000",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
+        open: "#8B0000",
+        claimed: "#8B0000",
+        closed: "#8B0000",
+        pending: "#8B0000",
       },
-      economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      economy: "#8B0000",
+      birthday: "#8B0000",
+      moderation: "#8B0000",
 
       // Ticket priority color mapping.
       priority: {
-        none: "#95A5A6",
-        low: "#3498db",
-        medium: "#2ecc71",
-        high: "#f1c40f",
-        urgent: "#e74c3c",
+        none: "#8B0000",
+        low: "#8B0000",
+        medium: "#8B0000",
+        high: "#8B0000",
+        urgent: "#8B0000",
       },
     },
     footer: {
@@ -421,12 +421,12 @@ export const botConfig = {
   // GENERIC BOT MESSAGES
   // =========================
   messages: {
-    noPermission: "You do not have permission to use this command.",
-    cooldownActive: "Please wait {time} before using this command again.",
+    noPermission: "Lol, je hebt geen permissies om dit te doen swa.",
+    cooldownActive: "Rustig aan swa, probeer het zo nog een keer.",
     errorOccurred: "An error occurred while executing this command.",
     missingPermissions:
       "I am missing required permissions to perform this action.",
-    commandDisabled: "This command has been disabled.",
+    commandDisabled: "Deze command staat uit swa.",
     maintenanceMode: "The bot is currently in maintenance mode.",
   },
 
