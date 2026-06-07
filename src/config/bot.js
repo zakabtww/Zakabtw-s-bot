@@ -88,14 +88,14 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#0e7213", 
-      secondary: "#0e7213", 
+      primary: "#0a0177", 
+      secondary: "#0a0177", 
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#0e7213", 
-      error: "#0e7213", 
-      warning: "#0e7213", 
-      info: "#0e7213", 
+      success: "#0a0177", 
+      error: "#0a0177", 
+      warning: "#0a0177", 
+      info: "#0a0177", 
 
       // Neutral utility colors.
       light: "#FFFFFF",
@@ -112,26 +112,26 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#0e7213",
-        ended: "#0e7213",
+        active: "#0a0177",
+        ended: "#0a0177",
       },
       ticket: {
-        open: "#0e7213",
-        claimed: "#0e7213",
-        closed: "#0e7213",
-        pending: "#0e7213",
+        open: "#0a0177",
+        claimed: "#0a0177",
+        closed: "#0a0177",
+        pending: "#0a0177",
       },
-      economy: "#0e7213",
-      birthday: "#0e7213",
-      moderation: "#0e7213",
+      economy: "#0a0177",
+      birthday: "#0a0177",
+      moderation: "#0a0177",
 
       // Ticket priority color mapping.
       priority: {
-        none: "#0e7213",
-        low: "#0e7213",
-        medium: "#0e7213",
-        high: "#0e7213",
-        urgent: "#0e7213",
+        none: "#0a0177",
+        low: "#0a0177",
+        medium: "#0a0177",
+        high: "#0a0177",
+        urgent: "#0a0177",
       },
     },
     footer: {
